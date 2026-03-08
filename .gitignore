@@ -1,0 +1,98 @@
+# -----------------------------------------------------------------------
+# .gitignore  –  RA Template  (Franklin Qian Manual conventions)
+# -----------------------------------------------------------------------
+# Committed:   source/, data/, output/, temp/, docs/, run_all.py, README.md
+# Languages:   Stata (.do), R (.R), Python (.py), Jupyter (.ipynb)
+# -----------------------------------------------------------------------
+
+# Raw data – large/sensitive files live on Dropbox/Drive, not in git
+data/0_raw/*
+!data/0_raw/.gitkeep
+!data/0_raw/README.md
+
+# Quarto build artifacts (compiled PDFs are committed; build cache is not)
+*_files/
+.quarto/
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/local/
+renv/staging/
+
+# Jupyter artifacts
+**/.ipynb_checkpoints/
+
+# Stata temporary / batch files
+*.smcl
+*.stswp
+*.~do
+*.~dta
+*.log
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.bak
+*~
+
+# Python / virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# -----------------------------------------------------------------------
+# Large files  –  GitHub hard limit is 100 MB; warn at 50 MB
+# .gitignore cannot filter by size, so common large-file types are listed
+# here. A pre-commit hook at .git/hooks/pre-commit enforces the 100 MB
+# limit on any file type not caught by the patterns below.
+# -----------------------------------------------------------------------
+
+# Large data formats
+*.dta
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.nc
+*.mat
+*.sas7bdat
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.7z
+*.rar
+*.gz
+*.bz2
+
+# Large media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.mp3
+*.wav
+*.flac
+
+# Large images / GIS
+*.tif
+*.tiff
+*.geotiff
+*.shp
+*.shx
+*.dbf
+*.gdb/
