@@ -1,5 +1,5 @@
 ---
-title: "Task 1: Geocoding CoStar Data"
+title: "Task 1: Geocoding Office Data"
 subtitle: "Initial Attempt"
 author: 
   - name: "William Clinton Co"
@@ -7,7 +7,7 @@ author:
 date: today
 date-format: "MMMM D, YYYY"
 abstract: |
-  Brief summary of this week's progress.
+  The following shows the first week progress on the geocoding office data task. 
 
 format:
   pdf:
@@ -25,7 +25,7 @@ format:
 
 # This Week's Progress
 
-We were able to run the US Census Geocoder on a subset of SF CoStar data, but encountered a scenario where places have "tie" entries (multiple coordinates found). Guidance on this is requested.
+We were able to run the US Census Geocoder on a subset of SF CoStar data (94% match rate), but encountered a scenario where places have "tie" entries (multiple coordinates found). Guidance on this is requested.
 
 ## Tasks Completed
 
@@ -79,6 +79,8 @@ The Census Geocoder returned multiple equally-scored matches ("ties") for a subs
 1. **Directional prefixes** : the same street number resolves to different segments depending on the cardinal direction prefix (e.g., 256 **S** EL CAMINO REAL, SAN MATEO, CA 94401 vs. 256 **N** EL CAMINO REAL, SAN MATEO, CA 94401).
 2. **Street-type suffixes** : the same street number resolves to different street subtypes (e.g., 100 SKYLINE **PLZ**, DALY CITY, CA 94015 vs. 100 SKYLINE **DR**, DALY CITY, CA 94015).
 
+**Is there available directional information?**
+
 The Haversine distance between paired tie candidates ranges from 0 to approximately 6 km across the Bay Area sample. @fig-tie-map plots each tie pair connected by a line, with the distance labeled at the midpoint. An interactive version is available at `temp/tie_records_map.html`.
 
 ![Tie record pairs across the Bay Area sample, with Haversine distances labeled](../../temp/tie_records_pic.png){#fig-tie-map}
@@ -92,4 +94,7 @@ The Haversine distance between paired tie candidates ranges from 0 to approximat
 
 # Appendix {.appendix}
 
+Link to code repository:
+
+- https://github.com/WilliamClintC/Geocoding_Office
 

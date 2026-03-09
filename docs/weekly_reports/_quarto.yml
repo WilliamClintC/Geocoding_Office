@@ -1,0 +1,6 @@
+project:
+  type: default
+  render:
+    - "report_template.qmd"
+  post-render:
+    - python rename_output.py
