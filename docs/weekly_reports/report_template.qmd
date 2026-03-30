@@ -26,6 +26,7 @@ format:
 
 look into shape files
 look into HUD crosswalk match zipcode to censustrat
+look itno max's code
 
 
 # Appendix {.appendix}
