@@ -1,0 +1,7 @@
+metric,value
+Total rows,1051219.0
+Match rows,970482.0
+Tie rows,6697.0
+Matched-or-Tie rows,977179.0
+Strict match rate (%),92.32
+Matched-or-Tie rate (%),92.96

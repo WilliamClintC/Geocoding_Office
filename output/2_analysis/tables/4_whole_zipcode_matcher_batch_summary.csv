@@ -1,0 +1,84 @@
+source_batch,match_type,zip_match_detail,rows
+001,One-to-Many,One-to-Many Matched Exactly One Output,1
+001,One-to-Many,One-to-Many Matched Multiple Outputs,844
+001,One-to-Many,One-to-Many Matched No Output,36
+001,One-to-Many,Original ZIP Missing,5
+001,One-to-One,Geocoder ZIP Missing,7864
+001,One-to-One,One-to-One Did Not Match,556
+001,One-to-One,One-to-One Matched,89482
+001,One-to-One,Original ZIP Missing,1212
+002,One-to-Many,One-to-Many Matched Multiple Outputs,483
+002,One-to-Many,One-to-Many Matched No Output,22
+002,One-to-Many,Original ZIP Missing,14
+002,One-to-One,Geocoder ZIP Missing,6460
+002,One-to-One,One-to-One Did Not Match,614
+002,One-to-One,One-to-One Matched,88580
+002,One-to-One,Original ZIP Missing,3827
+003,One-to-Many,One-to-Many Matched Multiple Outputs,636
+003,One-to-Many,One-to-Many Matched No Output,26
+003,One-to-Many,Original ZIP Missing,15
+003,One-to-One,Geocoder ZIP Missing,5446
+003,One-to-One,One-to-One Did Not Match,584
+003,One-to-One,One-to-One Matched,89269
+003,One-to-One,Original ZIP Missing,4024
+004,One-to-Many,One-to-Many Matched Exactly One Output,4
+004,One-to-Many,One-to-Many Matched Multiple Outputs,788
+004,One-to-Many,One-to-Many Matched No Output,39
+004,One-to-Many,Original ZIP Missing,2
+004,One-to-One,Geocoder ZIP Missing,8853
+004,One-to-One,One-to-One Did Not Match,803
+004,One-to-One,One-to-One Matched,89483
+004,One-to-One,Original ZIP Missing,28
+005,One-to-Many,One-to-Many Matched Exactly One Output,1
+005,One-to-Many,One-to-Many Matched Multiple Outputs,767
+005,One-to-Many,One-to-Many Matched No Output,20
+005,One-to-Many,Original ZIP Missing,1
+005,One-to-One,Geocoder ZIP Missing,6705
+005,One-to-One,One-to-One Did Not Match,705
+005,One-to-One,One-to-One Matched,91786
+005,One-to-One,Original ZIP Missing,15
+006,One-to-Many,One-to-Many Matched Multiple Outputs,392
+006,One-to-Many,One-to-Many Matched No Output,18
+006,One-to-Many,Original ZIP Missing,20
+006,One-to-One,Geocoder ZIP Missing,5075
+006,One-to-One,One-to-One Did Not Match,630
+006,One-to-One,One-to-One Matched,90655
+006,One-to-One,Original ZIP Missing,3210
+007,One-to-Many,One-to-Many Matched Exactly One Output,1
+007,One-to-Many,One-to-Many Matched Multiple Outputs,374
+007,One-to-Many,One-to-Many Matched No Output,15
+007,One-to-Many,Original ZIP Missing,22
+007,One-to-One,Geocoder ZIP Missing,4912
+007,One-to-One,One-to-One Did Not Match,370
+007,One-to-One,One-to-One Matched,87690
+007,One-to-One,Original ZIP Missing,6616
+008,One-to-Many,One-to-Many Matched Exactly One Output,3
+008,One-to-Many,One-to-Many Matched Multiple Outputs,438
+008,One-to-Many,One-to-Many Matched No Output,33
+008,One-to-Many,Original ZIP Missing,116
+008,One-to-One,Geocoder ZIP Missing,4145
+008,One-to-One,One-to-One Did Not Match,484
+008,One-to-One,One-to-One Matched,64065
+008,One-to-One,Original ZIP Missing,30716
+009,One-to-Many,One-to-Many Matched Exactly One Output,3
+009,One-to-Many,One-to-Many Matched Multiple Outputs,553
+009,One-to-Many,One-to-Many Matched No Output,72
+009,One-to-One,Geocoder ZIP Missing,10757
+009,One-to-One,One-to-One Did Not Match,1371
+009,One-to-One,One-to-One Matched,87212
+009,One-to-One,Original ZIP Missing,32
+010,One-to-Many,One-to-Many Matched Exactly One Output,2
+010,One-to-Many,One-to-Many Matched Multiple Outputs,411
+010,One-to-Many,One-to-Many Matched No Output,14
+010,One-to-Many,Original ZIP Missing,211
+010,One-to-One,Geocoder ZIP Missing,5049
+010,One-to-One,One-to-One Did Not Match,493
+010,One-to-One,One-to-One Matched,60321
+010,One-to-One,Original ZIP Missing,33499
+011,One-to-Many,One-to-Many Matched Multiple Outputs,283
+011,One-to-Many,One-to-Many Matched No Output,11
+011,One-to-Many,Original ZIP Missing,1
+011,One-to-One,Geocoder ZIP Missing,2455
+011,One-to-One,One-to-One Did Not Match,367
+011,One-to-One,One-to-One Matched,48092
+011,One-to-One,Original ZIP Missing,10

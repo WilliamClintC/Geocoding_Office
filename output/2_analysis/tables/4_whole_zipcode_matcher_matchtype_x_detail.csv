@@ -1,0 +1,10 @@
+match_type,zip_match_detail,rows
+One-to-One,One-to-One Matched,886635
+One-to-One,One-to-One Did Not Match,6977
+One-to-One,Geocoder ZIP Missing,67721
+One-to-One,Original ZIP Missing,83189
+One-to-Many,One-to-Many Matched Exactly One Output,15
+One-to-Many,One-to-Many Matched Multiple Outputs,5969
+One-to-Many,One-to-Many Matched No Output,306
+One-to-Many,Geocoder ZIP Missing,0
+One-to-Many,Original ZIP Missing,407

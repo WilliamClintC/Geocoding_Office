@@ -1,0 +1,8 @@
+part_file,rows,size_mb,start_row_1based,end_row_1based
+4_whole_zipcode_matcher_001.csv,174932,84.86,1,174932
+4_whole_zipcode_matcher_002.csv,174932,83.9,174933,349864
+4_whole_zipcode_matcher_003.csv,174932,84.24,349865,524796
+4_whole_zipcode_matcher_004.csv,174932,84.7,524797,699728
+4_whole_zipcode_matcher_005.csv,174932,82.98,699729,874660
+4_whole_zipcode_matcher_006.csv,174932,83.31,874661,1049592
+4_whole_zipcode_matcher_007.csv,1627,0.81,1049593,1051219

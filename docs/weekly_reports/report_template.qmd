@@ -24,11 +24,45 @@ format:
 
 # This Week's Progress
 
-look into shape files
-look into HUD crosswalk match zipcode to censustrat
-look itno max's code
+We identified a practical mitigation strategy: matching ZIP codes.
+
+Today's progress included meeting with Max to discuss how to approach the problem. 
+Our deliverable is to identify robust San Francisco solutions.
+
+# Comparing Standardization Code
+
+The first step was to review Max's code to confirm whether we are using the same standardization process.
+I compared Max's code with mine to verify consistency.
+
+After reviewing Max's reference code, our current standardization appears to be an improvement.
+
+# Review of Shapefiles and HUD Crosswalk Options
+
+The original idea was to match address ZIP codes to census tracts. However, we found a better approach: directly matching ZIP codes. The summary is shown in Table @tbl-zip-match-detail-counts.
+
+| zip_match_detail | rows | pct |
+| --- | --- | --- |
+| One-to-One Matched | 8937 | 95.56 |
+| One-to-One Did Not Match | 42 | 0.45 |
+| One-to-Many Matched Exactly One Output | 0 | 0.0 |
+| One-to-Many Matched Multiple Outputs | 12 | 0.13 |
+| One-to-Many Matched No Output | 6 | 0.06 |
+| Geocoder ZIP Missing | 354 | 3.79 |
+| Original ZIP Missing | 1 | 0.01 |
+
+: ZIP Match Detail Counts {#tbl-zip-match-detail-counts}
+
+These results suggest that ZIP-based matching is not improving our results in a meaningful way, even in records that appear to match at first glance. In practice, this approach introduces additional concerns, creating more columns that require flagging and review. For example, in one-to-many, multiple-output cases, we still observe one ZIP mapping to multiple candidate ZIPs or to incorrect ZIPs. Overall, this indicates that the current ZIP-matching methodology is not moving us toward a reliable solution. Based on these findings, a census-tract matching approach is also unlikely to materially improve outcomes.
+
+# overall match statistics ar as folllows
 
 
+match   count    pct
+ 0   Missing  977179  92.96
+ 1  No_Match   73355   6.98
+ 2       Tie     685   0.07)
+
+ 
 # Appendix {.appendix}
 
 Link to code repository:

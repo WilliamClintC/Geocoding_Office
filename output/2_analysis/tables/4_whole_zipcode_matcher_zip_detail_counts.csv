@@ -1,0 +1,8 @@
+zip_match_detail,rows,pct
+One-to-One Matched,886635,84.34
+One-to-One Did Not Match,6977,0.66
+One-to-Many Matched Exactly One Output,15,0.0
+One-to-Many Matched Multiple Outputs,5969,0.57
+One-to-Many Matched No Output,306,0.03
+Geocoder ZIP Missing,67721,6.44
+Original ZIP Missing,83596,7.95
