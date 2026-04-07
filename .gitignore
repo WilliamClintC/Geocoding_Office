@@ -7,6 +7,7 @@
 
 # Raw data – large/sensitive files live on Dropbox/Drive, not in git
 data/0_raw/CoStar_Whole.csv
+data/1_derived/5_whole_matched_final.csv
 
 # Quarto build artifacts (compiled PDFs are committed; build cache is not)
 *_files/
@@ -29,6 +30,9 @@ renv/staging/
 *.~do
 *.~dta
 *.log
+
+# Claude Code settings
+.claude/settings.local.json
 
 # OS / editor noise
 .DS_Store
