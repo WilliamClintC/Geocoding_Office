@@ -1,0 +1,8 @@
+part_file,rows,size_mb,start_row_1based,end_row_1based
+5_whole_census_tract_matcher_001.csv,158178,84.95,1,158178
+5_whole_census_tract_matcher_002.csv,158178,84.09,158179,316356
+5_whole_census_tract_matcher_003.csv,158178,84.21,316357,474534
+5_whole_census_tract_matcher_004.csv,158178,84.71,474535,632712
+5_whole_census_tract_matcher_005.csv,158178,83.73,632713,790890
+5_whole_census_tract_matcher_006.csv,158178,83.72,790891,949068
+5_whole_census_tract_matcher_007.csv,102151,53.8,949069,1051219

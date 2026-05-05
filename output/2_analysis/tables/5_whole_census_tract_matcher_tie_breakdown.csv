@@ -1,0 +1,8 @@
+zip_match_detail,tract_resolution_method,rows
+One-to-Many Matched Exactly One Output,Tie Resolved via ZIP-Matching Ties,15
+One-to-Many Matched Multiple Outputs,Tie Resolved via ZIP-Matching Ties,3731
+One-to-Many Matched Multiple Outputs,Tract Ambiguous,2238
+One-to-Many Matched No Output,Tract Ambiguous,228
+One-to-Many Matched No Output,Tie Resolved via All Ties Unanimous,78
+Original ZIP Missing,Tie Resolved via All Ties Unanimous,236
+Original ZIP Missing,Tract Ambiguous,171

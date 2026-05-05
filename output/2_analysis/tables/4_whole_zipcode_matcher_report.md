@@ -9,8 +9,10 @@
 ## Match Type Counts
 | match_type | rows | pct |
 | --- | --- | --- |
-| One-to-One | 1044522 | 99.36 |
-| One-to-Many | 6697 | 0.64 |
+| One-to-One Matched | 970482 | 92.32 |
+| One-to-One Did Not Match | 73355 | 6.98 |
+| Missing | 685 | 0.07 |
+| One-to-Many (Tie) | 6697 | 0.64 |
 
 ## ZIP Match Detail Counts
 | zip_match_detail | rows | pct |

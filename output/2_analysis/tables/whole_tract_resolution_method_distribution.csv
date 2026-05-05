@@ -1,0 +1,6 @@
+tract_resolution_method,count,pct
+One-to-One Primary,1043837,99.3
+Tie Resolved via ZIP-Matching Ties,3746,0.36
+Tract Ambiguous,2637,0.25
+Tract Missing,685,0.07
+Tie Resolved via All Ties Unanimous,314,0.03
